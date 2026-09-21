@@ -1,0 +1,20 @@
+{
+  "repo": "orynq-observe-seed",
+  "primitives": [
+    {
+      "id": "observe-registry-seed",
+      "name": "Observation registry seed",
+      "desc": "Seed corpus and manifest for the chain-anchored AI-behaviour observation registry, with scripts to refresh chain coordinates and render the published manifest.",
+      "kind": "pipeline",
+      "paths": [
+        "manifest.json",
+        "scripts",
+        "sources"
+      ],
+      "consumes": [
+        "gateway-observations"
+      ],
+      "status": "live"
+    }
+  ]
+}
